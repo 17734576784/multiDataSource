@@ -1,0 +1,14 @@
+spring:
+ # 数据源配置
+  datasource:
+    ds1: #数据源1
+      driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver # mysql的驱动你可以配置别的关系型数据库
+      url: jdbc:sqlserver://192.168.1.35:1433;Databasename=ydpara #数据源地址
+      username: sa # 用户名
+      password: 123456 # 密码
+    ds2: # 数据源2
+      driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver # mysql的驱动你可以配置别的关系型数据库
+      url: jdbc:sqlserver://192.168.1.130:1433;Databasename=ydpara #数据源地址
+      username: sa # 用户名
+      password: 'keyd*%@#1095' 
+       # 密码
